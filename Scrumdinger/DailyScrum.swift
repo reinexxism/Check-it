@@ -9,7 +9,7 @@ import Foundation
 
 struct DailyScrum {
     var title: String
-    var attendee: [String]
+    var attendees: [String]
     var lengthInMinutes: Int
     var theme: Theme
 }
@@ -17,8 +17,8 @@ struct DailyScrum {
 extension DailyScrum {
     static let sampleData: [DailyScrum] =
     [
-        DailyScrum(title: "React", attendee: ["Joohyun", "YerinS", "Dahee"], lengthInMinutes: 10, theme: .yellow),
-        DailyScrum(title: "iOS", attendee: ["Joohyun", "Dongha", "YerinH"], lengthInMinutes: 5, theme: .orange),
-        DailyScrum(title: "Operation System", attendee: ["Joohyun", "Seoeun", "YerinS"], lengthInMinutes: 5, theme: .poppy)
+        DailyScrum(title: "React", attendees: ["Joohyun", "YerinS", "Dahee"], lengthInMinutes: 10, theme: .yellow),
+        DailyScrum(title: "iOS", attendees: ["Joohyun", "Dongha", "YerinH"], lengthInMinutes: 5, theme: .orange),
+        DailyScrum(title: "Operation System", attendees: ["Joohyun", "Seoeun", "YerinS"], lengthInMinutes: 5, theme: .poppy)
     ]
 }

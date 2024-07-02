@@ -13,6 +13,7 @@
 		277A31D92C2960A7005BD997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277A31D82C2960A7005BD997 /* Assets.xcassets */; };
 		277A31DC2C2960A7005BD997 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277A31DB2C2960A7005BD997 /* Preview Assets.xcassets */; };
 		2781D42A2C33C2FC009139BA /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2781D4292C33C2FC009139BA /* DailyScrum.swift */; };
+		2781D42C2C33C47E009139BA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2781D42B2C33C47E009139BA /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		277A31D82C2960A7005BD997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		277A31DB2C2960A7005BD997 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2781D4292C33C2FC009139BA /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		2781D42B2C33C47E009139BA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				277A31D42C2960A6005BD997 /* ScrumdingerApp.swift */,
 				277A31D62C2960A6005BD997 /* MeetingView.swift */,
 				2781D4292C33C2FC009139BA /* DailyScrum.swift */,
+				2781D42B2C33C47E009139BA /* CardView.swift */,
 				277A31D82C2960A7005BD997 /* Assets.xcassets */,
 				277A31DA2C2960A7005BD997 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 				2736AE702C2B0AD200D21E47 /* Theme.swift in Sources */,
 				277A31D72C2960A6005BD997 /* MeetingView.swift in Sources */,
 				277A31D52C2960A6005BD997 /* ScrumdingerApp.swift in Sources */,
+				2781D42C2C33C47E009139BA /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
